@@ -434,3 +434,16 @@ a img {
     max-width: 20rem;
   }
 }
+@media (max-width: 527px) {
+  .main_project {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .main_project > * {
+    width: fit-content;
+    margin: 1.5rem auto;
+    max-width: 20rem;
+  }
+}
